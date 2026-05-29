@@ -1,0 +1,108 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0px;
+    display:block; 
+    font-size: large;
+    color: black;
+    font-weight: 200;   /* code for the typography*/ 
+    line-height: normal;
+    letter-spacing:normal;
+    
+
+}
+
+button {
+    color:black;
+    box-sizing: border-box;
+    width:20%;
+    font-size: 10px;
+    border-radius: 8px; /* Making the buttons rounder*/
+
+} 
+
+/* Making the cursor hover over all of the buttons */
+button:hover {
+    cursor: pointer;
+
+}
+header {
+    background-color:black; 
+    color:white;
+    text-align: center;
+    padding: 20px 40px; 
+    display: flex; /* Makes the header fill the top of the screen*/
+    justify-content: space-between;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+} 
+/* This will help to size the photos for mobile devices*/
+.header-banner {
+   background-image: url("Images/Images.3.avif");
+   background-size: cover;
+   background-position: center;
+   height: 300px;
+   width: 100%; 
+
+   background-image: url("Images/Images.5.webp");
+   background-size: cover;
+   background-position: center;
+   height: 300px; 
+   width: 100%; 
+
+   background-image: url("Images/Images.6.jpg");
+   background-size: cover; 
+   background-position: center;
+   height: 300px;
+   width:100%;
+
+} 
+
+/* centering the image */
+img  { 
+    align-items: center; 
+
+
+
+}
+/* This will help to size the photos for tablets*/ 
+@media (min-width: 768px){ 
+     .header-banner {
+        background-image: url("Images/Images.3.avif"); 
+        
+    }   
+
+    .header-banner {
+        background-image: url("Images/Images.5.webp"); 
+        
+    }
+    
+    .header-banner {
+        background-image: url("Images/Images.6.jpg"); 
+        
+    }
+    
+} 
+
+/* This will help to size the photos for desktops*/ 
+@media (min-width: 1200px) {
+    .header-banner {
+        background-image: url("Images/Images.3.avif");
+    } 
+
+     .header-banner {
+        background-image: url("Images/Images.5.webp");
+    }  
+
+     .header-banner {
+        background-image: url("Images/Images.6.jpg");
+    } 
+
+
+}
+
+
+
