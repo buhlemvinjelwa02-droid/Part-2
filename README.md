@@ -48,4 +48,6 @@ Using Java script's built in functiion, form validation was done by using if sta
 And in the event that the customer does not enter valid information, they will recieve an error message and a message prompting them to enter valid information.
 The image names were also then changed in order to be more specific. 
 SEO was done in order to increase the website's visibility. 
-Key words are used to make the website more visible when a customer enters those specific words into a search engine.
+Key words are used to make the website more visible when a customer enters those specific words into a search engine. 
+
+
